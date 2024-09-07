@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="resume">
+        <section class="personal-info" id="personal-info">
+            <img src="./profile-photo.jpg" alt="Profile Picture" class="profile-pic">
+            <h1 id="name" contenteditable="true">Saad Najam</h1>
+            <p contenteditable="true">Web Developer | Generative AI Engineer | Data Entry Specialist | Web Manager</p>
+            <p id="contact" contenteditable="true">Contact: syedsaadnajam2006@gmail.com</p>
+        </section>
+
+        <section class="education" id="education">
+            <h2 contenteditable="true">Education</h2>
+            <p id="degree" contenteditable="true">Intermediate from Pre-Engineering</p>
+            <p id="university" contenteditable="true">Adamjee Govt. Science College</p>
+            <p id="graduation-year" contenteditable="true">Year: 2023-25</p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 contenteditable="true">Skills</h2>
+            <ul>
+                <li contenteditable="true"> Web Development</li>
+                <li contenteditable="true">Generative AI Engineering</li>
+                <li contenteditable="true">Data Entry</li>
+                <li contenteditable="true">Web Management</li>
+                <li contenteditable="true">Time Management</li>
+            </ul>
+        </section>
+
+        <section class="work-experience" id="work-experience">
+            <h2 contenteditable="true">Work Experience</h2>
+            <p id="job-title" contenteditable="true">Web Developer at XYZ Company</p>
+            <p id="job-duration" contenteditable="true">June 2023 - Present</p>
+            <ul>
+                <li contenteditable="true">Developed and maintained company website</li>
+                <li contenteditable="true">Integrated AI tools to enhanced user experience</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
